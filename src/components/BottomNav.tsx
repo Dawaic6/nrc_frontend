@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 const BottomNav = () => {
     return (
-        <nav className="stick top-0 z-10 bg-slate-800 flex justify-between items-center px-50 py-[20px]">
+        <nav className="stick top-0 z-10 bg-[#414868] flex justify-between items-center px-50 py-[20px]">
             <div className="space-x-10 text-white font-bold">
                 <Link to="/" className="hover:underline">Home</Link>
                 <Link to="/about" className="hover:underline">About</Link>
